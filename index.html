@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var a = 22;
+        var b = 95;
+        if(a>b){
+            document.write("A WINS");
+        }
+        else if(b>a){
+            document.write("B WINS");
+        }
+        else{
+            document.write("DRAW");
+        }
+        var bh = "";
+        var emp = {ename:"abc",eno : 12, ejob : "clerk", ephone : 2345678};
+        for(var x in emp){
+            bh = bh + emp[x]+" ";
+        }
+        document.write(bh);
+        document.write(a===b);
+        var ab = Boolean(8);
+        var cab = Boolean("hello");
+        var abc = Boolean(0);
+        document.write(ab);
+        document.write("<br>");
+        document.write(cab);
+        document.write(abc );
+        for (var i = 0; i< a; i++){
+            if(i%3 ===0){document.write(i);
+            document.write("<br>");}
+        }
+    </script>
+</body>
+</html>
